@@ -1,24 +1,40 @@
-#encabezado {
+header {
 	display: block;
+	width: 100%;
     height: 100px;
 	background: #5b7989;
 	border-radius: 10px 10px 0px 0px;
 	color: white;
 
 }
-#titulo {
+
+h1 {
 	display: block;
 	float: left;
-}
-#titulo h1 {
 	text-shadow: 2px 2px 2px #02010a;
 }
-#enlaces {
+nav {
 	display: block;
 	float: right;
 	margin: 30px 20px;
 }
-#enlaces a {
+nav a {
 	text-decoration: none;
 	color: white;
+}
+
+#mainpic {
+	display: block;
+	width: 100%;
+	height: 300px;
+	background: #82c3a6;
+}
+
+#secondpics {
+width: 100%;
+height: 300px;
+display: flex;
+flex-flow: row wrap;
+background: #d5c75f;
+border: 1px solid black;
 }
