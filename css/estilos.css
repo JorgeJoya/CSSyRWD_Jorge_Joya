@@ -1,0 +1,24 @@
+#encabezado {
+	display: block;
+    height: 100px;
+	background: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	color: white;
+
+}
+#titulo {
+	display: block;
+	float: left;
+}
+#titulo h1 {
+	text-shadow: 2px 2px 2px #02010a;
+}
+#enlaces {
+	display: block;
+	float: right;
+	margin: 30px 20px;
+}
+#enlaces a {
+	text-decoration: none;
+	color: white;
+}
