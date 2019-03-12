@@ -21,8 +21,10 @@ body {
 header {
 	display: block;
 	width: 100%;
-    height: auto;
+	height: auto;
 	background: #5b7989;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
 	border-radius: 10px 10px 0px 0px;
 	color: white;
 	margin:0px;
@@ -41,12 +43,14 @@ h1 {
 	padding: 0px; 
 	
 }
+
 nav {
 	width: 100%;
 	height: auto;
 	margin: 20px auto;
 	padding: 1%;
 }
+
 nav a {
 	color: white;
 	padding: 2%;
@@ -108,7 +112,12 @@ nav a {
 	transition-duration: 1s;
 }
 #paisaje:hover {
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
 	transform: rotate(10deg);
+	-webkit-box-shadow: 2px 2px 2px #82c3a6;
+	-moz-box-shadow: 2px 2px 2px #82c3a6;
 	box-shadow: 2px 2px 2px #82c3a6;
 }
 #retrato {
@@ -122,7 +131,12 @@ nav a {
 	transition-duration: 1s;
 }
 #retrato:hover {
+	-webkit-transform: translate(20px,-5px);
+	-moz-transform: translate(20px,-5px);
+	-o-transform: translate(20px,-5px);
 	transform: translate(20px,-5px);
+	-webkit-box-shadow: 2px 2px 2px #82c3a6;
+	-moz-box-shadow: 2px 2px 2px #82c3a6;
 	box-shadow: 2px 2px 2px #82c3a6;
 }
 
@@ -173,8 +187,11 @@ footer {
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
 	background: #C6d5c5;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
 	border-radius: 0px 0px 10px 10px;
 }
+
 .boxes {
 	width: 100%;
 	height: auto;
@@ -203,70 +220,39 @@ header {
 	display: flex;
 	-webkit-flex-flow: row nowrap;
 	flex-flow: row nowrap;
-	width: 100%;
-    height: auto;
-	background: #5b7989;
-	border-radius: 10px 10px 0px 0px;
-	color: white;
 
 }
 
 h1 {
 	width: 65%;
-	margin: 1%;
 	text-align: left;
 }
 
 nav {
 	width: 35%;
-	height: auto;
 	text-align: right;
 }
 
 #secondpics {
-	width: 100%;
-	height: auto;
-	display: -webkit-flex;
-	display: flex;
 	-webkit-flex-flow: row nowrap;
 	flex-flow: row nowrap;
-	background: #d5c75f;
 }
 
 .pics {
 	width: 50%;
-	height: auto;
-}
-
-#galery {
-	width: 100%;
-	height: auto;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
-	background: #d5c75f;
 }
 
 .photoboxes {
 	width: 33.33%;
-	height: auto;
 }
 
 footer {
-	width: 100%;
-	height: auto;
-	display: -webkit-flex;
-	display: flex;
 	-webkit-flex-flow: row nowrap;
 	flex-flow: row nowrap;
-	background: #C6d5c5;
-	border-radius: 0px 0px 10px 10px;
 }
+
 .boxes {
 	width: 25%;
-	height: auto;
-	flex: 1 2 50%;
 }
 }
 
