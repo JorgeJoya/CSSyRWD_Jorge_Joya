@@ -27,6 +27,7 @@ header {
 	color: white;
 	margin:0px;
 	padding: 1vh 1vw;
+	animation: slidein 1s;
 }
 
 h1 {
@@ -202,4 +203,14 @@ footer {
 	border: 1px solid black;
 	flex: 1 2 50%;
 }
+}
+
+@-webkit-keyframes slidein 
+{
+
+0% { margin-top: 150%; }
+
+60% { margin-top: -5%;  }
+
+100% { margin-top: 0%;  }
 }
