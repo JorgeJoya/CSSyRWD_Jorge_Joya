@@ -126,6 +126,31 @@ nav a {
 	box-shadow: 2px 2px 2px #82c3a6;
 }
 
+
+#galery {
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	background: #d5c75f;
+}
+
+.photoboxes {
+	width: 100%;
+	height: auto;
+}
+
+.photoboxes img {
+	width: 90%;
+	height: auto;
+	margin: 5% 5% 5% 5%;
+	border: 1px solid black;
+	padding: 0px;
+}
+
+
 footer {
 	width: 100%;
 	height: auto;
@@ -197,7 +222,21 @@ nav {
 .pics {
 	width: 50%;
 	height: auto;
-	flex: 1 2 50%;
+}
+
+#galery {
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	background: #d5c75f;
+}
+
+.photoboxes {
+	width: 33.33%;
+	height: auto;
 }
 
 footer {
