@@ -84,14 +84,43 @@ nav a {
 .piclink img {
 	width: 90%;
 	height: auto;
-	margin: 10px 3% 0px 3%
-	padding: 2% 2% 0% 2%;
+	margin: 10px 5% 0px 5%;
+	border: 1px solid black;
+	padding: 0px;
 }
 .piclink a,.piclink a:visited { 
 	color:black; 
 	font-size: 1.2em;
 }
 
+#paisaje {
+	-webkit-transition-property: transform, box-shadow;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: transform, box-shadow;
+	-moz-transition-duration: 1s;
+	-o-transition-property:transform, box-shadow;
+	-o-transition-duration: 1s;
+	transition-property:transform, box-shadow;
+	transition-duration: 1s;
+}
+#paisaje:hover {
+	transform: rotate(10deg);
+	box-shadow: 2px 2px 2px #82c3a6;
+}
+#retrato {
+	-webkit-transition-property: transform, box-shadow;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: transform, box-shadow;
+	-moz-transition-duration: 1s;
+	-o-transition-property:transform, box-shadow;
+	-o-transition-duration: 1s;
+	transition-property:transform, box-shadow;
+	transition-duration: 1s;
+}
+#retrato:hover {
+	transform: translate(20px,-5px);
+	box-shadow: 2px 2px 2px #82c3a6;
+}
 
 footer {
 	width: 100%;
