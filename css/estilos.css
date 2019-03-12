@@ -43,11 +43,13 @@ nav {
 	padding: 1%;
 }
 nav a {
-	text-decoration: none;
 	color: white;
+	padding: 2%;
 	
 }
-
+.on {
+	text-decoration: none;
+}
 #mainpic {
 	display: block;
 	width: 100%;
