@@ -150,6 +150,20 @@ nav a {
 	padding: 0px;
 }
 
+#photo1 {
+	-webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+#photo2, #photo4, #photo6 {
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#photo3 {
+	-webkit-filter: sepia(90%);
+    filter: sepia(90%);
+}
 
 footer {
 	width: 100%;
